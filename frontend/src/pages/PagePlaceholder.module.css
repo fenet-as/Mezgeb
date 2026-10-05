@@ -1,0 +1,25 @@
+.section {
+  max-width: 48rem;
+  padding: var(--spacing-xl);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-md);
+  background: var(--color-surface);
+  box-shadow: var(--shadow-sm);
+}
+
+.eyebrow {
+  margin: 0 0 var(--spacing-sm);
+  color: var(--color-primary);
+  font-size: 0.875rem;
+  font-weight: 700;
+}
+
+.title {
+  margin: 0 0 var(--spacing-sm);
+  font-size: 1.75rem;
+}
+
+.description {
+  margin-bottom: 0;
+  color: var(--color-text-muted);
+}

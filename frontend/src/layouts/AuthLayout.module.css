@@ -1,0 +1,12 @@
+.layout {
+  display: grid;
+  min-height: 100vh;
+  align-content: center;
+  justify-items: start;
+  gap: var(--spacing-lg);
+  padding: var(--spacing-xl);
+}
+
+.layout > :global(section) {
+  width: min(100%, 34rem);
+}

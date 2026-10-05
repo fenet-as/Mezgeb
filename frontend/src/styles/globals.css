@@ -1,0 +1,38 @@
+@import './variables.css';
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  min-width: 320px;
+  min-height: 100vh;
+  margin: 0;
+  background: var(--color-background);
+  color: var(--color-text);
+  font-family: 'Segoe UI', sans-serif;
+  line-height: 1.5;
+}
+
+button,
+a {
+  font: inherit;
+}
+
+a {
+  color: var(--color-primary);
+}
+
+:focus-visible {
+  outline: 3px solid var(--color-accent);
+  outline-offset: 3px;
+}
+
+.appBrand {
+  color: var(--color-text);
+  font-size: 1.125rem;
+  font-weight: 700;
+  text-decoration: none;
+}

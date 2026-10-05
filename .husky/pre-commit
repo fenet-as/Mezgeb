@@ -1,0 +1,2 @@
+cd frontend
+npm exec -- lint-staged
